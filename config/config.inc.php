@@ -20,25 +20,8 @@ define( 'PER_NUM_COUNT',10);
 define('WEB_URL','http://www.jimjic.cn');
 
 /*pingpp支付的配置*/
-define('PINGPP_APP_KEY','sk_test_vTi1CS5uv5eLuLyjnTTC00m1');
 
-define('PINGPP_APP_ID','app_Km5WrHDerzvLG4mL');
 
-define('PINGPP_RSA_PUBLIC_KEY',
-'-----BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArcyYiSO7toZxCPSBeGjk
-r5Qq9mPYIO1FUbyTjrnF0HneAgu0k1lWuL09ezHjHnYP4a5t6o0SSxfAsWfRYjaG
-wtk8YidUqU8o0OMGxRNNmBVtgVnu5mSSaNkP+NzIHLFPHLFkF9reGNvaH+y/i4dE
-eJ9qAMnR3KFJls0duB6tLJLvN1N9CKZL5LjiTMTYgnQyUvNIapOHEs7mufm8oWJb
-D4fxz+/803MySJeZcKhW3dxYctTSZh9NHw3yNOOM9/FnpYXsZIjvCAXg5m2NAhLl
-VRVZ2w4Hbrqp7I5loX6HIpad0z9b1d9yi7qsPJLXeJwYGM8Qu+VlnAkf9aU9uXIB
-iQIDAQAB
------END PUBLIC KEY-----'
-);
-
-define('PINGPP_SIGNATURE',
-''
-);
 
 /*数据库*/
 
