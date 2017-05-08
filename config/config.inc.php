@@ -1,9 +1,9 @@
 <?php
 
-/*ÍøÕ¾¸ùÄ¿Â¼*/
+/*ç½‘ç«™æ ¹ç›®å½•*/
 define( 'WEB_ROOT',dirname(__Dir__) );
 define('ROOT_DIR','http://127.0.0.1');
-/*js¡¢css¡¢image µÄ¸ùÄ¿Â¼£¬ºÍ°æ±¾*/
+/*jsã€cssã€image çš„æ ¹ç›®å½•ï¼Œå’Œç‰ˆæœ¬*/
 
 define( 'JS_ROOT', '/res/js' );
 
@@ -16,10 +16,10 @@ define( 'JS_VERSION','0.1');
 define( 'CSS_VERSION','0.1');
 
 define( 'PER_NUM_COUNT',10);
-/*ÍøÕ¾url*/
+/*ç½‘ç«™url*/
 define('WEB_URL','http://www.jimjic.cn');
 
-/*pingppÖ§¸¶µÄÅäÖÃ*/
+/*pingppæ”¯ä»˜çš„é…ç½®*/
 define('PINGPP_APP_KEY','sk_test_vTi1CS5uv5eLuLyjnTTC00m1');
 
 define('PINGPP_APP_ID','app_Km5WrHDerzvLG4mL');
@@ -40,10 +40,10 @@ define('PINGPP_SIGNATURE',
 ''
 );
 
-/*Êı¾İ¿â*/
+/*æ•°æ®åº“*/
 
-define('DB_ROOT','root');
-define('DB_PWD','wasd199312');
+define('DB_ROOT','your user');
+define('DB_PWD','your password');
 define('DB_HOST','127.0.0.1');
 define('DB_NAME','news');
 
@@ -54,7 +54,7 @@ define('OSS_BMZJ_BUCKET', 'bmzj');
 define('OSS_ENDPOINT','bmzj.oss-cn-hangzhou-internal.aliyuncs.com');
 define('OSS_BMZJ_PUBLIC_DOMAIN','bmzj.oss-cn-hangzhou.aliyuncs.com');
 
-/*ÓÊ¼ş*/
+/*é‚®ä»¶*/
 define('EMAIL_FROM','lanyuguo.nan@foxmail.com');
 define('EMAIL_STMP_ADDRESS','smtp.qq.com');
 define('EMAIL_USER','lanyuguo.nan@foxmail.com');
@@ -66,6 +66,6 @@ define('EMAIL_PASS','lkpekbiuyqgefegh');
     'emailPassword'=>'wasd199312'    
 ];*/
 
-/*È¨ÏŞ*/
+/*æƒé™*/
 
 define('LOGIN_WEIGHT',1);
