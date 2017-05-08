@@ -1,0 +1,1 @@
+http://localhost./img-news/16083746_980x1200_0.jpg,http://localhost./img-news/16083829_980x1200_0.jpg,http://localhost./img-news/16083830_980x1200_0.jpg,http://localhost./img-news/16083831_980x1200_0.jpg,http://localhost./img-news/16083832_980x1200_0.jpg,http://localhost./img-news/16083833_980x1200_0.jpg,   \n

@@ -1,0 +1,248 @@
+#shoper_home_main {
+  width: 74.375rem;
+  margin: 1rem auto;
+  /*min-height: 20rem;*/
+}
+#shml_header {
+  border: 1px solid #dfdfdf;
+  padding: 1rem;
+}
+#shm_left {
+  float: left;
+  width: 55.625rem;
+}
+#shm_right {
+  float: right;
+  width: 15rem;
+  padding: 1rem;
+  border: 1px solid #dfdfdf;
+}
+#shmlh_left {
+  float: left;
+  width: 28rem;
+}
+#shmlh_left img {
+  height: 20rem;
+  width: 100%;
+}
+#shmlh_right {
+  float: left;
+  width: 25rem;
+  margin-left: .5rem;
+}
+#shmlh_right li {
+  font-size: .875rem;
+  line-height: 3rem;
+  height: 3rem;
+  overflow: hidden;
+  word-break: break-all;
+}
+#shmlh_right span {
+  color: #999;
+}
+#shmlh_right div img {
+  margin-left: .5rem;
+  vertical-align: text-top;
+}
+#shmlh_right li:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+}
+h3 {
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #dfdfdf;
+  color: #333;
+  margin-bottom: 1rem;
+}
+#shm_right li>img {
+  width: 100%;
+  height: 9rem;
+}
+#shm_right h4 {
+  font-weight: normal;
+  color: #333;
+  font-size: 1rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 1px dashed #ddd;
+}
+#shm_right div img {
+  margin-left: .5rem;
+  vertical-align: text-top;
+}
+#shm_right span,
+#shm_right small {
+  display: inline-block;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: .875rem;
+  color: #999;
+}
+#shm_right small  {
+  color: #f60;
+  font-size: 1.5rem;
+}
+#shml_nav {
+  width: 100%;
+  background-color: rgb(66, 160, 121);
+  margin: 1rem 0;
+}
+#shml_nav li {
+  float: left;
+}
+#shml_nav a {
+  display: block;
+  height: 3rem;
+  line-height: 3rem;
+  color: white;
+  min-width: 6rem;
+  text-decoration: none;
+  text-align: center;
+}
+#shml_nav a.shmln_cur {
+  color: #fff;
+  border-top: 1px solid #dfdfdf;
+  background-color: #f60;
+}
+#cloud_goods.shoper_cloud_goods>div>div:nth-child(3n){
+  border-right: 1px solid #dfdfdf;
+}
+#shoper_home_main:after,
+#shml_header:after,
+#shml_nav ul:after,
+#job_list>div:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.j_left,
+.j_right {
+  float: left;
+  width: 70%;
+  font-size: .875rem;
+  color: #333;
+}
+.j_right {
+  width: 30%;
+  text-align:right;
+}
+#job_list {
+  
+}
+#job_list>div {
+  border: 1px solid #dfdfdf;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+#job_list span {
+  color: #999;
+  margin-left: 1rem;
+}
+#job_list li {
+  line-height: 3rem;
+  min-height: 3rem;
+}
+#job_list h4 {
+  font-size: .875rem;
+  color: #333;
+  font-weight: normal;
+}
+.j_right img {
+  width: 6rem;
+  height: 6rem;
+}
+.yes_ver,
+.j_left .contact_style {
+  color: rgb(66, 160, 121);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.contact_style span {
+  font-size: .875rem;
+  color: #999;
+  font-weight: normal;
+}
+#cloud_goods.shoper_album_l li:nth-child(2) a {
+  text-align: center;
+}
+#goods_img_list img {
+  height: 30rem;
+  width: 100%;
+}
+#goods_service small {
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 2.25rem;
+  border: 1px solid #f60;
+  display: inline-block;
+  line-height: 2.25rem;
+  text-align: center;
+  font-size: .875rem;
+  font-weight: bold;
+  color: rgb(66, 160, 121);
+}
+#shmlh_right a {
+  text-decoration: none;
+  color: #333;
+  font-size: .875rem;
+}
+#goods_cart_list a {
+  display: inline-block;
+  width: 7rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  background-color: #f60;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid #dfdfdf;
+}
+#goods_cart_list a:hover {
+  background-color: rgb(66, 160, 121);
+  text-decoration: none;
+  color: white;
+}
+#user_comment_list li img {
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 3rem;
+  border: 1px solid #dfdfdf;
+}
+#user_comment_list li ul {
+  float: left;
+  height: 3rem;
+  line-height: 3rem;
+  margin-left: 1rem;
+}
+#user_comment_list li  {
+  font-size: .875rem;
+  color: #333;
+  line-height: 1.5rem;
+}
+#user_comment_list span {
+  color: #999;
+  font-size: .75rem;
+}
+#user_comment_list>div>ul {
+  padding: 1rem 0;
+  border-bottom: 1px dashed #dfdfdf;
+}
+#user_comment_list>div>ul:last-child {
+  border-bottom: none;
+}
+.ucl_info li {
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.ucl_body {
+  padding-left: 4rem;
+}
+.ucl_info:after {
+  content: "";
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-size: 100%;
+  font-family: "Hiragino Sans GB",arial,Verdana,tahoma,"\5b8b\4f53",sans-serif;
+  background-color: #fff;
+}
+ul,
+ol {
+  list-style: none;
+}
+header,
+section {
+  width: 74.375rem;
+  margin: 0 auto;
+}
+header {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#h_left {
+  float: left;
+}
+#h_right {
+  float: right;
+  height: 4.5rem;
+  line-height: 4.5rem;
+}
+header a {
+  font-size: .875rem;
+  color: #999;
+  text-decoration: none;
+}
+header span {
+  color: #999;
+  margin: 0 .5rem;
+}
+header a:hover {
+  color: #1cb177;
+  text-decoration: underline;
+}
+section {
+  min-height: 20rem;
+  border-bottom: 1px solid #ddd;
+}
+section form {
+  width: 25rem;
+  margin: 3rem auto;
+}
+section input[type="text"],
+section input[type="password"],
+section button,
+select {
+  height: 3rem;
+  line-height: 3rem;
+  outline: none;
+  width: 20rem;
+  font-size: .875rem;
+  color: #333;
+  outline: none;
+}
+section input[type="text"],
+section input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius:4px;
+}
+select {
+  width: 6rem;
+  border-color: #ccc;
+}
+section button {
+  /*background-color: #1cb177;*/
+  background-color: rgb(66, 160, 121);
+  color: white;
+  border: 1px solid #ccc;
+  border-radius:8px;
+  font-size: 1.25rem;
+}
+section button:hover {
+  cursor: pointer;
+  /*background-color: #179362;*/
+  background-color: rgb(66, 160, 100);
+}
+section li {
+  margin-top: 1rem;
+}
+section li div {
+  float: left;
+  margin-right: 1rem;
+}
+section li div button {
+  height:3.25rem;
+}
+section label {
+  height: 2rem;
+  line-height: 2rem;
+  color: #999;
+  display: inline-block;
+  font-size: .875rem;
+}
+.spec_part_li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.speech-bubble {
+  position: relative;
+  border: 1px solid #dadada;
+  margin-left: 100px;
+  width: 200px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+ 
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+} 
+.speech-bubble-left:after {
+  border-right-color: #ccc;
+  top: 50%;
+  right: 100%;
+  margin-top: -11px;   
+}
+span {
+  color: #474747;
+}
+footer {
+  color: #999;
+  text-align: center;
+  font-size: .875rem;
+  margin: 1rem;
+}
+header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.reg_code_part {
+  position: relative;
+}
+.forget_pass{
+	padding-left:20px;
+	font-size:14px;
+	color:rgb(66, 160, 121);
+}
+.reg_code_part a {
+  position: absolute;
+  left: 150px;
+  top: 1px;
+  height: 3rem;
+  line-height: 3rem;
+  width: 6rem;
+  text-align: center;
+  background-color: rgb(66, 160, 121);
+  font-size: .875rem;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #dfdfdf;
+  border-right-radius:4px;
+  border-top: none;
+  border-bottom: none;
+}

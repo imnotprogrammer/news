@@ -1,0 +1,125 @@
+#myCarousel{
+	
+	height:300px;
+	
+}
+.span12{
+	margin-top:2rem;
+}
+.index_ul{
+	display:inline-block;
+	margin-top:2rem;
+	margin-left:4rem;
+	
+}
+.index_ul li{
+	height:30px;
+	line-height:30px;
+}
+.index_ul li a{
+	color:#555;
+}
+.newsnav{
+	margin-left:4rem;
+}
+.index_h3{
+	padding-left:2rem;
+   font-size:14px;
+   height:50px;
+   line-height:50px;
+   //padding-top:1rem;
+   color:rgb(66, 160, 121);
+   border-radius:4px;
+   border-bottom:1px solid rgb(66, 160, 121);
+}
+.index_h3 a{
+	padding-left:14rem;
+}
+.newscontent{
+	margin-top:2rem;
+	border:1px solid rgb(66, 160, 121);
+}
+.bottom_row{
+	height:150px;
+	margin-top:2rem;
+	border-top:1px solid #dfdfdf;
+}
+.comment_btn{
+	
+	
+	width:100px;
+	height:40px;
+	background:rgb(66, 160, 121);
+	color:white;
+	border:none;
+	border-radius:4px;
+	
+    margin-right:2rem;
+	margin-top:1rem;
+	margin-left:50rem;
+  //margin-bottom:1rem;
+}
+.list-group{
+	//border:1px solid rgb(66, 160, 121);
+}
+.list-group .aa{
+	height:50px;
+	line-height:50px;
+	padding-bottom:2px;
+}
+.special-intem{
+	background-color:rgb(66, 160, 121);
+	color:white;
+	
+}
+
+.special-li{
+	width:280px;
+	height:30px;
+	line-height:30px;
+	margin-top:1rem;
+	//margin-left:15rem;
+	//margin-bottom:0px;
+	
+}
+.view_btn{
+	text-align:center;
+}
+.morecomment{
+	background:rgb(66, 160, 121);border:none;color:white;height:40px;text-align:center;line-height:40px;text-decoration:none;margin-bottom:2rem;border-radius:4px;
+    display:block;
+	width:40%;
+	margin:2rem auto;
+}
+.nav li a{
+	color:rgb(66, 160, 121);
+}
+.morecomment:hover{ text-decoration:none;background:rgb(66, 160, 121);color:white;}
+.comment{
+	//border:none;
+}
+.login_reg{
+	display:block;
+	height:40px;
+     //margin-left:40px;
+	margin-top:2rem;
+}
+.login_reg li{
+	float:left;
+	line-height:40px;
+	//width:60px;
+	padding-left:20px;
+    color:rgb(66, 160, 121);
+	text-align:right;
+}
+.login_reg li a{
+	font-size:12px;
+	color:rgb(66, 160, 121);
+}
+.login_reg li.spec{
+	width:2px;
+}
+h3{
+	color:rgb(66, 160, 121);
+}
+
