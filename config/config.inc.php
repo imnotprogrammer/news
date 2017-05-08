@@ -17,7 +17,7 @@ define( 'CSS_VERSION','0.1');
 
 define( 'PER_NUM_COUNT',10);
 /*网站url*/
-define('WEB_URL','http://www.jimjic.cn');
+define('WEB_URL','');
 
 /*pingpp支付的配置*/
 
@@ -31,23 +31,18 @@ define('DB_HOST','127.0.0.1');
 define('DB_NAME','news');
 
 /*OSS*/
-define('OSS_ACCESS_ID', 'Lmwjy5cybQePsFIP');
-define('OSS_ACCESS_KEY', 'WQ3g98s3c07C4exGWQlHAj4FWA95Rv');
+define('OSS_ACCESS_ID', 'Lfdgfdmwjy5cybQePsFIP');
+define('OSS_ACCESS_KEY', 'WQ3g98s3c07fgdfgfdgC4exGWQlHAj4FWA95Rv');
 define('OSS_BMZJ_BUCKET', 'bmzj');
-define('OSS_ENDPOINT','bmzj.oss-cn-hangzhou-internal.aliyuncs.com');
-define('OSS_BMZJ_PUBLIC_DOMAIN','bmzj.oss-cn-hangzhou.aliyuncs.com');
+define('OSS_ENDPOINT','oss-cn-hangzhou-internal.aliyuncs.com');
+define('OSS_BMZJ_PUBLIC_DOMAIN','oss-cn-hangzhou.aliyuncs.com');
 
 /*邮件*/
-define('EMAIL_FROM','lanyuguo.nan@foxmail.com');
+define('EMAIL_FROM','emial@foxmail.com');
 define('EMAIL_STMP_ADDRESS','smtp.qq.com');
-define('EMAIL_USER','lanyuguo.nan@foxmail.com');
-define('EMAIL_PASS','lkpekbiuyqgefegh');
-/*$emailConfig = [
-    'emailFrom' => '2013814909@qq.com',
-    'emailSmtpAddress' => 'smtp.qq.com',
-    'emailUser'    => '2013814909@qq.com',
-    'emailPassword'=>'wasd199312'    
-];*/
+define('EMAIL_USER','email.com');
+define('EMAIL_PASS','dqgefegh');
+
 
 /*权限*/
 
